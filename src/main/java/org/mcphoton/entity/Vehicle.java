@@ -22,19 +22,19 @@ import org.mcphoton.utils.Vector;
 
 /**
  * This interface is used by Minecarts, Horses, Boats and Pigs.
- * 
+ *
  * @author DJmaxZPLAY
  */
 public interface Vehicle {
-	
+
 	/**
 	 * Gets a Vector from the vehicle's velocity.
 	 */
 	Vector getVelocity();
-	
+
 	/**
 	 * Sets the vehicle's velocity with a Vector.
 	 */
 	void setVelocity(Vector velocity);
-	
+
 }

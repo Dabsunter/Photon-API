@@ -70,21 +70,21 @@ public abstract class Entity {
 	public World getWorld() {
 		return world;
 	}
-	
+
 	/**
 	 * Gets the primary passenger of a vehicle. Vehicle which can have multiple passengers,
 	 * it return only the primary passenger.
 	 */
 	public abstract Entity getPassenger();
-	
+
 	/**
 	 * Return if the entity has a passenger.
 	 */
 	public abstract boolean hasPassenger();
-	
+
 	/**
 	 * Set the passenger of the entity.
-	 * 
+	 *
 	 * @param passenger The new passenger.
 	 * @return false if it couldn't be done.
 	 */
